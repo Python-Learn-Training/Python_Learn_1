@@ -26,3 +26,38 @@ print(x)
 
 x=True #取代舊資料 X變true
 print(x)
+
+#有序可變動列表 List
+#印出所有列表
+grades =[60,80,90,70]
+print(grades)
+#印出指定欄位的列表值 grades[欄位]
+grades =[60,80,90,70]
+print(grades[3])
+#印出所有列表 grades[欄位]=更新值
+grades =[60,80,90,70]
+grades[0]=55
+print(grades)
+#取列表中特定的值 grades[欄位:欄位]
+grades =[60,80,90,70]
+print(grades[1:3]) #取出列表中從編號1到編號3(不包括編號3)的資料
+#刪除列表中特定的值 grades[欄位:欄位]
+grades =[60,80,90,70]
+grades[1:3]=[] #連續刪除列表中從編號1到編號3(不包括編號3)的資料
+print(grades)
+#原來列表加新的列表 grades=grades+[新列表]
+grades =[60,80,90,70]
+grades=grades+[11,33]
+print(grades)
+#印出列表長度 len
+grades =[60,80,90,70]
+length=len(grades)
+print(length)
+#巢狀列表
+data=[ [3,4,5], [6,7,8] ]
+print(data[0][0]) #data[第一層][第一層的第一個(3)列表]
+#資料取代
+data=[ [3,4,5], [6,7,8] ]
+print(data)
+data[0][0:2]=[8,8,8]
+print(data)
