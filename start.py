@@ -16,3 +16,13 @@ print ("Hello Python")
 {"Hello","World"}
 #字典 Dictionary {"鍵1":"值1","鍵2":"值2"}
 {"banana":"香蕉","data":"資料"}
+
+#變數: 用來儲存資料的自訂名稱
+#變數名稱=資料
+x=3
+data=4
+#print(資料)
+print(x)
+
+x=True #取代舊資料 X變true
+print(x)
