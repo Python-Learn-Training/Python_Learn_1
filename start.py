@@ -27,7 +27,7 @@ print(x)
 x=True #取代舊資料 X變true
 print(x)
 
-#有序可變動列表 List
+#有序可變動列表 List 用中括號[]
 #印出所有列表
 grades =[60,80,90,70]
 print(grades)
@@ -59,5 +59,13 @@ print(data[0][0]) #data[第一層][第一層的第一個(3)列表]
 #資料取代
 data=[ [3,4,5], [6,7,8] ]
 print(data)
-data[0][0:2]=[8,8,8]
+data[0][0:2]=[8,8,8] #更動資料
 print(data)
+
+#有序不可變動列表 Tuple 用小括號()
+data=(3,4,5)
+print(data[0:2])
+#錯誤: Tuple的資料不可變動
+data=(3,4,5)
+#data[0]=5 #Tuple的資料不可變動
+print(data[0:2])
