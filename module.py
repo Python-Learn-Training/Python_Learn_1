@@ -1,0 +1,13 @@
+# 載入內建的 sys 模組並取得資訊
+# import sys as system
+# print(system.platform)
+# print(system.maxsize)
+
+# 建立geometry 模組，載入使用
+import geometry
+result=geometry.distance(1,1,5,5)
+print(result)
+
+result=geometry.slope(1,2,5,6)
+print(result)
+# 調整搜尋模組的路徑
